@@ -23,6 +23,7 @@ function App() {
   );
 
   const anotherFeature = () => console.log("another feature")
+  const yetAnotherFeauter = () => console.log("asdasdasd")
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
