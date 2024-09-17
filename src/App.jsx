@@ -12,8 +12,15 @@ function App() {
   );
   const [activeFilter, setActiveFilter] = useState(() => (drink) => drink); //returns a 1 to 1 function
 
+  console.log("Hello, world");
 
-  console.log("Hello, world")
+  const coolFeature = () => (
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere nobis
+      magnam aspernatur iusto aut, incidunt, id consectetur eveniet quo porro
+      ea, labore recusandae minima animi officiis optio explicabo odio?
+    </p>
+  );
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
