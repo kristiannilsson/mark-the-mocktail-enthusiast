@@ -21,6 +21,8 @@ function App() {
       ea, labore recusandae minima animi officiis optio explicabo odio?
     </p>
   );
+
+  const anotherFeature = () => console.log("another feature")
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
